@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bs-intro" />
         <module name="bs-credits" />
+        <module name="bs-intro" />
+        <module name="eureka-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="12">
       <module name="bs-credits" target="14" />
       <module name="bs-intro" target="14" />
+      <module name="eureka-server" target="14" />
       <module name="spring-cloud-gateway-eureka" target="1.5" />
     </bytecodeTargetLevel>
   </component>
@@ -20,6 +22,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="bs-credits" options="-parameters" />
       <module name="bs-intro" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
     </option>
   </component>
 </project>

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bs-credits/bs-credits.iml" filepath="$PROJECT_DIR$/bs-credits/bs-credits.iml" />
       <module fileurl="file://$PROJECT_DIR$/bs-intro/bs-intro.iml" filepath="$PROJECT_DIR$/bs-intro/bs-intro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-gateway-eureka.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-gateway-eureka.iml" />
     </modules>
   </component>
