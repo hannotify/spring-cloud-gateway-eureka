@@ -27,11 +27,11 @@ public class IntroCreditsController {
     @GetMapping
     public List<String> getIntroCredits() throws ExecutionException, InterruptedException {
         List<String> introList = Arrays.asList(
-                Objects.requireNonNull(webclient.build().get().uri("lb://bs-intro/intro")
+                Objects.requireNonNull(webclient.build().get().uri("lb://BS-INTRO/intro")
                         .retrieve().bodyToMono(String[].class).toFuture().get()));
 
         List<String> creditsList = Arrays.asList(
-                Objects.requireNonNull(webclient.build().get().uri("lb://bs-credits/credits")
+                Objects.requireNonNull(webclient.build().get().uri("lb://BS-CREDITS/credits")
                         .retrieve().bodyToMono(String[].class).toFuture().get()));
 
         return Stream.of(introList, creditsList)
