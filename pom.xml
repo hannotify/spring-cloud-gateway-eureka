@@ -12,6 +12,7 @@
         <module>bs-credits</module>
         <module>bs-intro</module>
         <module>eureka-server</module>
+        <module>api-gateway</module>
     </modules>
 
 </project>

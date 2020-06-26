@@ -9,9 +9,11 @@
         <module name="bs-credits" />
         <module name="bs-intro" />
         <module name="eureka-server" />
+        <module name="api-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="12">
+      <module name="api-gateway" target="14" />
       <module name="bs-credits" target="14" />
       <module name="bs-intro" target="14" />
       <module name="eureka-server" target="14" />
@@ -20,6 +22,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="-parameters" />
       <module name="bs-credits" options="-parameters" />
       <module name="bs-intro" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
